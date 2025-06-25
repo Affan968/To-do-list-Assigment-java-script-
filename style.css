@@ -1,61 +1,63 @@
-body{
-     background-color:#f0fff0;   ;  
+body {
+    background-color: #f0fff0;
     font-family: Arial, sans-serif;
-   text-align: center;
-   align-items: center;
-   font-size: 25px;
-   border: 1px solid black;
-   width: 600px;
-   height: 1100px;
-   margin: 0 auto;
-   
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    width: 600px;
+    height: 1100px;
+    margin: 0 auto;
+
 }
 
-#button{
+#button {
     padding: 12px;
-    background-color: rgb(5, 5, 5);
-    color: white;
+    background-color:rgb(6, 56, 41);
+    color:rgb(255, 255, 255);
     border: none;
     margin: 10px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
-/* ul{
-    list-style: disc inside;
-    padding-left: 0;
-    text-align: center;
-}   */
+#city-input{
+  border-color: #4CAF50;
+}
 
-#city-input:hover{
-    border-color: #4CAF50;           
-    background-color: #f9fff9;   
+#city-input:hover {
+    border-color: #4CAF50;
+    background-color: #f9fff9;
 }
-#button:hover{
+
+#button:hover {
     border-color: #4CAF50;
     background-color: rgb(6, 56, 41);
     border-radius: 4px;
 }
-#button:active{
-    background-color: #388E3C; 
+
+#button:active {
+    background-color: #787e78;
+    color: black;
 }
-h1{  color: #333333;
+
+h1 {
+    color: #333333;
 }
-/* .city-style{
-     align-items: center;
-    gap: 8px;
-    color: green;
-} */
+
 .city-style {
     display: flex;
-  align-items: center;
-  text-align: center;
-  width: 260px; /* ya jitni chaahiye */
-  color: green;
-  margin: 5px auto;
-  list-style-type: none;
-  border-bottom: 1px solid #b30000
+    align-items: center;
+    text-align: center;
+    width: 260px;
+    color: green;
+    margin: 5px auto;
+    padding: 4px;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(6, 56, 41);
 }
 
 .city-name {
-flex-grow: 1;
+    flex-grow: 1;
 
 }
 
@@ -66,8 +68,42 @@ flex-grow: 1;
     align-items: center;
 
 }
-.city-style:hover{
+
+.city-style:hover {
     color: #333333;
-    cursor:pointer;
+    cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: midnightblue;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        align-items: center;
+        font-size: 25px;
+        border: 1px solid black;
+        width: 600px;
+        height: 1100px;
+        margin: 0 0px;
+    
+    }
+
+    h1 {
+        color:orange;
+    }
+#button{
+    padding: 12px;
+    background-color:chocolate;
+    color:rgb(255, 255, 255);
+    border: none;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.city-style {
+    
+    color:orange;
+   border-color: chocolate;
+}
+}
