@@ -1,0 +1,73 @@
+body{
+     background-color:#f0fff0;   ;  
+    font-family: Arial, sans-serif;
+   text-align: center;
+   align-items: center;
+   font-size: 25px;
+   border: 1px solid black;
+   width: 600px;
+   height: 1100px;
+   margin: 0 auto;
+   
+}
+
+#button{
+    padding: 12px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    border: none;
+    margin: 10px;
+}
+/* ul{
+    list-style: disc inside;
+    padding-left: 0;
+    text-align: center;
+}   */
+
+#city-input:hover{
+    border-color: #4CAF50;           
+    background-color: #f9fff9;   
+}
+#button:hover{
+    border-color: #4CAF50;
+    background-color: rgb(6, 56, 41);
+    border-radius: 4px;
+}
+#button:active{
+    background-color: #388E3C; 
+}
+h1{  color: #333333;
+}
+/* .city-style{
+     align-items: center;
+    gap: 8px;
+    color: green;
+} */
+.city-style {
+    display: flex;
+  align-items: center;
+  text-align: center;
+  width: 260px; /* ya jitni chaahiye */
+  color: green;
+  margin: 5px auto;
+  list-style-type: none;
+  border-bottom: 1px solid #b30000
+}
+
+.city-name {
+flex-grow: 1;
+
+}
+
+.city-actions {
+    margin-left: 8px;
+    cursor: pointer;
+    align-items: center;
+    align-items: center;
+
+}
+.city-style:hover{
+    color: #333333;
+    cursor:pointer;
+}
+
